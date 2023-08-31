@@ -1,0 +1,69 @@
+/* ======== Google Fonts ======== */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+/* ======== General CSS ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: unset;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+section {
+  overflow: hidden;
+}
+.button {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  color: #00e0d0;
+  background: transparent;
+  border: 1px solid #00e0d0;
+  border-radius: 0.15rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.7rem 0.8rem 0.6rem;
+  transition: all 0.4s;
+}
+.button:hover {
+  background: #00e0d0;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .button {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.7rem 0.5rem;
+  }
+}

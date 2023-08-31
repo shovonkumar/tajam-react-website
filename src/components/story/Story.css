@@ -1,0 +1,35 @@
+.story {
+  padding: 4rem 0;
+}
+.story img {
+  width: 250px;
+  height: auto;
+}
+.story h2 {
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  color: #413d4b;
+}
+.story p {
+  color: #413d4b;
+  font-size: 0.9rem;
+}
+.story .button {
+  margin-top: 1rem;
+}
+
+/* ======== Breakpoints ======== */
+
+@media (max-width: 767px) {
+  .story {
+    padding: 3rem 0;
+  }
+  .story img {
+    width: 200px;
+  }
+}
+@media (max-width: 575px) {
+  .story img {
+    width: 250px;
+  }
+}

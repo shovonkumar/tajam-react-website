@@ -1,0 +1,72 @@
+.navbar {
+  height: 5rem;
+  background: #1b123c;
+  position: sticky !important;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.nav__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+.nav__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.8rem;
+  transition: 0.4s ease;
+}
+.nav__link:hover,
+.nav__link.active {
+  color: #00e0d0;
+}
+.menu__icon {
+  display: none;
+  cursor: pointer;
+}
+.menu__icon i {
+  font-size: 1.9rem;
+  line-height: 1;
+  background: linear-gradient(90deg, #00e0d0, #3697c3);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s ease;
+}
+/* ======== Breakpoints ======== */
+@media (max-width: 991px) {
+  .menu__icon {
+    display: block;
+  }
+  .nav__menu {
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 5rem);
+    position: absolute;
+    top: 5rem;
+    left: -100%;
+    transition: all 0.5s ease;
+    padding-top: 3.5rem !important;
+  }
+  .nav__mobile {
+    background: #1b123c;
+    border-top: 1px solid #00e0d0;
+    left: 0;
+  }
+  .nav__mobile .nav__link {
+    display: inline-block;
+    padding: 0.3rem 0;
+  }
+}

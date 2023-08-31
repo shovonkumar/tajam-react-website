@@ -1,0 +1,128 @@
+.footer {
+  padding: 3rem 0;
+  background: linear-gradient(
+      90deg,
+      rgba(9, 5, 74, 0.85),
+      rgba(49, 29, 94, 0.85)
+    ),
+    url("./images/footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.footer h4 {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__left img {
+  width: 120px;
+  margin-bottom: 1.3rem;
+}
+.footer__left p {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+.footer__left a {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: 0.4s;
+}
+.footer__left a:hover {
+  color: #00e0d0;
+}
+
+.footer__middle i {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.footer__middle span {
+  line-height: 1.8;
+  font-size: 0.9rem;
+}
+
+.footer__right input {
+  margin-top: 0.15rem;
+  background: transparent;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+  border: 1px solid rgba(230, 230, 230, 0.774);
+  border-radius: 0;
+}
+.footer__right input::placeholder {
+  color: rgba(230, 230, 230, 0.774);
+}
+.footer__right input:focus {
+  outline: none;
+}
+.footer__right button {
+  background: rgba(230, 230, 230, 0.574);
+  padding: 0.5rem 1.4rem;
+  border: none;
+  font-size: 1.25rem;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.footer__right button:hover {
+  background: #00e0d0;
+  color: #1b123c;
+}
+
+.footer__right .social a {
+  line-height: 1;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 0.55rem 0.6rem 0.5rem;
+  transition: 0.4s;
+}
+.footer__right .social a:first-child {
+  padding: 0.55rem 0.8rem 0.5rem;
+}
+.footer__right .social a:hover {
+  background: #00e0d0;
+  color: #1b123c;
+  border-color: #00e0d0;
+}
+
+.footer__right span {
+  display: block;
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+}
+.footer__right span a {
+  color: #00e0d0;
+}
+
+/* ======== Breakpoints ======== */
+
+@media (max-width: 991px) {
+  .footer__left img {
+    margin-bottom: 0.6rem;
+  }
+  .footer h4 {
+    margin-bottom: 1rem;
+  }
+  .footer__right span {
+    margin-top: 1.25rem;
+  }
+}
+@media (max-width: 575px) {
+  .footer__right input {
+    width: 210px;
+    padding: 0.65rem 0.7rem;
+  }
+  .footer__right button {
+    padding: 0.45rem 1.3rem 0.65rem;
+    font-size: 1.1rem;
+  }
+  .footer__right .social {
+    gap: 0.85rem !important;
+  }
+  .footer__right .social a {
+    font-size: 0.9rem;
+  }
+}
