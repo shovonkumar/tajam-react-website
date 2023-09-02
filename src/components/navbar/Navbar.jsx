@@ -66,15 +66,6 @@ const Navbar = () => {
           </li>
           <li className="nav__item">
             <NavLink
-              to="/people"
-              className="nav__link"
-              onClick={() => setClicked(false)}
-            >
-              People Say
-            </NavLink>
-          </li>
-          <li className="nav__item">
-            <NavLink
               to="/contact"
               className="nav__link"
               onClick={() => setClicked(false)}

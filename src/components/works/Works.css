@@ -1,0 +1,39 @@
+.works {
+  padding: 4rem 0;
+}
+.works img {
+  width: 100%;
+  height: auto;
+}
+.img__wrapper {
+  position: relative;
+}
+.img__wrapper:hover .img__hover {
+  opacity: 1;
+  visibility: visible;
+}
+.img__hover {
+  height: 100%;
+  width: 100%;
+  background: #1b123c72;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all ease 0.4s;
+}
+.img__hover a {
+  line-height: 1;
+  font-size: 1.1rem;
+  color: #fff;
+  padding: 0.8rem 0.95rem;
+  background: #1b123c;
+  border-radius: 50%;
+}
+.works .button {
+  display: inline-block;
+}

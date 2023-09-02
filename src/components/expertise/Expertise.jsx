@@ -5,11 +5,11 @@ const Expertise = () => {
   return (
     <section className="expertise">
       <div className="container text-center">
-        <h2>Expertise</h2>
+        <h2 className="title">Expertise</h2>
         <p className="subtitle">
           Lorem ipsum dolor sit amet proin gravida nibh vel velit
         </p>
-        <div className="expertise__item__wrapper">
+        <div className="expertise__item__wrapper justify-content-center">
           <ExpertiseItem
             icon="fa-solid fa-tv"
             heading="Web Design &amp; Development"

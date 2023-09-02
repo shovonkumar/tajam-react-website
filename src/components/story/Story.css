@@ -5,10 +5,8 @@
   width: 250px;
   height: auto;
 }
-.story h2 {
-  font-size: 2rem;
+.story .title {
   margin-bottom: 1.25rem;
-  color: #413d4b;
 }
 .story p {
   color: #413d4b;

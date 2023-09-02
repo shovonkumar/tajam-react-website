@@ -57,6 +57,7 @@
 }
 .footer__right input:focus {
   outline: none;
+  border-color: #00e0d0;
 }
 .footer__right button {
   background: rgba(230, 230, 230, 0.574);

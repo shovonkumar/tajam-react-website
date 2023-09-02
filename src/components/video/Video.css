@@ -1,6 +1,5 @@
 .video {
   height: 28rem;
-  width: 100%;
   background: linear-gradient(
       90deg,
       rgba(9, 5, 74, 0.85),
@@ -17,6 +16,11 @@
   padding: 1.1rem 1.3rem;
   border: 2px solid #fff;
   border-radius: 50%;
+  transition: 0.4s;
+}
+.video i:hover {
+  color: #00e0d0;
+  border-color: #00e0d0;
 }
 .video span {
   text-transform: uppercase;

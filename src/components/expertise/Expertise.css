@@ -1,26 +1,6 @@
 .expertise {
   padding: 4rem 0;
 }
-.expertise h2 {
-  font-size: 2rem;
-  color: #413d4b;
-}
-.expertise .subtitle {
-  color: #2f2d35;
-  position: relative;
-}
-.expertise .subtitle::after {
-  content: "";
-  display: block;
-  height: 0.15rem;
-  width: 3.5rem;
-  background: #413d4b;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0.7;
-  margin-top: 0.8rem;
-}
 .expertise__item__wrapper {
   margin-top: 4rem;
   display: grid;
@@ -99,6 +79,7 @@
     grid-template-columns: auto;
   }
   .expertise__item {
+    max-width: 350px !important;
     border: 1px solid rgba(69, 69, 69, 0.261) !important;
     border-bottom: none !important;
   }

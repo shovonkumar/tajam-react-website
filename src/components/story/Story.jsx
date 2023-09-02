@@ -9,7 +9,7 @@ const Story = () => {
             <img src="./images/about.png" alt="About Image" />
           </div>
           <div className="col-sm-7 order-1 order-sm-2 text-center text-sm-start">
-            <h2>Our Story</h2>
+            <h2 className="title">Our Story</h2>
             <p>
               This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel
               velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
