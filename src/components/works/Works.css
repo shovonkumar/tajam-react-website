@@ -1,5 +1,6 @@
 .works {
   padding: 4rem 0;
+  border-bottom: 1px solid #00e0d0;
 }
 .works img {
   width: 100%;
@@ -36,4 +37,12 @@
 }
 .works .button {
   display: inline-block;
+}
+
+@media (max-width: 575px) {
+  .works .img__wrapper {
+    max-width: 350px;
+    height: auto;
+    margin: 0 auto;
+  }
 }

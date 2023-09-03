@@ -6,6 +6,7 @@ import ExpertisePage from "./pages/ExpertisePage";
 import TeamPage from "./pages/TeamPage";
 import WorksPage from "./pages/WorksPage";
 import ErrorPage from "./pages/ErrorPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/expertise" element={<ExpertisePage />} />
           <Route path="/teams" element={<TeamPage />} />
           <Route path="/works" element={<WorksPage />} />
+          <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </BrowserRouter>

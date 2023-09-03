@@ -1,0 +1,55 @@
+.contact {
+  padding: 4rem 0;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 90%;
+  border: 1px solid #d2d2d2;
+  margin-bottom: 1.25rem;
+  font-size: 0.9rem;
+  color: #413d4b;
+  padding: 0.45rem 1.25rem;
+}
+.contact form textarea {
+  height: 200px;
+}
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  font-size: 0.9rem;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+  outline: none;
+  border-color: #00e0d0;
+}
+
+.contact .button {
+  padding: 0.55rem 1.5rem 0.4rem;
+}
+
+/* ======== Breakpoints ======== */
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact img {
+    max-width: 120px;
+  }
+  .contact .title {
+    font-size: 1.9rem;
+  }
+}
+@media (max-width: 575px) {
+  .contact {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .contact form input,
+  .contact form textarea {
+    width: 100%;
+  }
+  .contact form textarea {
+    height: 150px;
+  }
+  .contact img {
+    max-width: 100px;
+  }
+}
