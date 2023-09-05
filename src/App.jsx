@@ -10,6 +10,7 @@ import TeamPage from "./pages/TeamPage";
 import WorksPage from "./pages/WorksPage";
 import ErrorPage from "./pages/ErrorPage";
 import ContactPage from "./pages/ContactPage";
+import BackToTop from "./components/backToTop/BackToTop";
 
 function App() {
   useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
+        <BackToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

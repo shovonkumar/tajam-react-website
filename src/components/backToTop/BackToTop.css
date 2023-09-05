@@ -1,0 +1,18 @@
+.back__to__top {
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.2rem;
+  transition: all 0.4s;
+  font-size: 1.1rem;
+  font-weight: 700;
+  background: #01b9ad;
+  color: #fff;
+  padding: 0.6rem 0.7rem 0.6rem 0.73rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  z-index: 999;
+  display: none;
+}
+.back__to__top.visible {
+  display: block;
+}
