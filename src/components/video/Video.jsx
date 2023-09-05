@@ -16,7 +16,7 @@ const Video = () => {
   }, []);
   return (
     <section className="video">
-      <div className="container d-flex justify-content-center align-items-center h-100 text-white flex-column gap-3">
+      <div className="container d-flex justify-content-center align-items-center h-100 text-white flex-column gap-3" data-aos="zoom-in" data-aos-delay="200">
         <a
           href="https://www.youtube.com/watch?v=jAa58N4Jlos"
           className="glightbox"

@@ -4,8 +4,8 @@ const Banner = () => {
   return (
     <section className="banner">
       <div className="container text-white text-center">
-        <h1>We Are Awesome Creative Agency</h1>
-        <p>
+        <h1 data-aos="zoom-in" data-aos-delay="100">We Are Awesome Creative Agency</h1>
+        <p data-aos="zoom-in" data-aos-delay="200">
           This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel velit
           auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi
           elit consequat ipsum.
@@ -14,7 +14,7 @@ const Banner = () => {
             cursus a sit amet mauris. Morbi accumsan ipsum velit.
           </span>
         </p>
-        <button className="button">Learn More</button>
+        <button className="button" data-aos="zoom-in" data-aos-delay="300">Learn More</button>
       </div>
     </section>
   );

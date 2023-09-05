@@ -16,7 +16,7 @@ const WorksItem = (props) => {
   }, []);
   return (
     <>
-      <div className="col-lg-3 col-sm-4">
+      <div className="col-lg-3 col-sm-4" data-aos="zoom-in" data-aos-delay="200">
         <div className="img__wrapper">
           <img src={props.img} alt="Work Image" className="img-fluid" />
           <div className="img__hover">

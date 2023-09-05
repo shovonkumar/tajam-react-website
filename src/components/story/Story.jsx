@@ -3,12 +3,12 @@ import "./Story.css";
 const Story = () => {
   return (
     <section className="story">
-      <div className="container">
+      <div className="container" data-aos="fade-up" data-aos-delay="100">
         <div className="row gy-4">
-          <div className="col-sm-5 order-2 order-sm-1 d-flex justify-content-center align-items-center">
+          <div className="col-sm-5 order-2 order-sm-1 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
             <img src="./images/about.png" alt="About Image" />
           </div>
-          <div className="col-sm-7 order-1 order-sm-2 text-center text-sm-start">
+          <div className="col-sm-7 order-1 order-sm-2 text-center text-sm-start" data-aos="fade-up" data-aos-delay="300">
             <h2 className="title">Our Story</h2>
             <p>
               This is Photoshop version of Lorem Ipsum. Proin gravida nibh vel

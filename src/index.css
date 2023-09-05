@@ -43,7 +43,7 @@ img {
   vertical-align: middle;
 }
 section {
-  overflow: hidden;
+  overflow: hidden !important;
   width: 100%;
 }
 .button {

@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row gy-5 text-center text-md-start">
           <ContactForm />
           <Client />

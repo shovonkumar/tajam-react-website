@@ -4,7 +4,7 @@ import ExpertiseItem from "./ExpertiseItem";
 const Expertise = () => {
   return (
     <section className="expertise">
-      <div className="container text-center">
+      <div className="container text-center" data-aos="fade-up">
         <h2 className="title">Expertise</h2>
         <p className="subtitle">
           Lorem ipsum dolor sit amet proin gravida nibh vel velit

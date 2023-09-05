@@ -1,6 +1,6 @@
 const Client = () => {
   return (
-    <div className="col-md-6 d-flex flex-column gap-5">
+    <div className="col-md-6 d-flex flex-column gap-5" data-aos="fade-up" data-aos-delay="200">
       <h2 className="title mb-0">Our Happy Clients</h2>
       <div className="d-flex align-items-center justify-content-between">
         <img src="./images/zara.png" alt="Client" />

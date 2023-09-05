@@ -11,7 +11,7 @@ import image8 from "/images/works8.jpg";
 
 const Works = () => {
   return (
-    <section className="works">
+    <section className="works" data-aos="fade-up">
       <h2 className="title text-center">Our Works</h2>
       <div className="row gx-0 gy-0 mt-5">
         <WorksItem img={image1} />
@@ -23,7 +23,7 @@ const Works = () => {
         <WorksItem img={image7} />
         <WorksItem img={image8} />
       </div>
-      <div className="text-center mt-5">
+      <div className="text-center mt-5" data-aos="fade-up">
         <Link to="/works" className="button">
           Load More
         </Link>

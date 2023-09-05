@@ -8,26 +8,26 @@ import team4 from "/images/team4.jpg";
 const Team = () => {
   return (
     <section className="team">
-      <div className="container text-center text-white">
+      <div className="container text-center text-white" data-aos="fade-up">
         <h2 className="title text-white">Meet Our Amazing Team</h2>
         <p className="subtitle">
           Lorem ipsum dolor sit amet proin gravida nibh vel velit
         </p>
         <div className="row gy-5 team__item__wrapper mx-auto">
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <TeamItem img={team1} name="SEMF UCUK" title="CEO &amp; Founder" />
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
             <TeamItem img={team2} name="DIK ADALIN" title="Engineer" />
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
             <TeamItem img={team3} name="JENG KOL" title="Designer" />
           </div>
-          <div className="col-sm-6 col-lg-3">
+          <div className="col-sm-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
             <TeamItem img={team4} name="PET ROMAK" title="Marketing" />
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center" data-aos="fade-up">
           <p className="team__text">
             Become a part of our dream team. Lets join us.
           </p>

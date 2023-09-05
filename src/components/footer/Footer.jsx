@@ -3,9 +3,9 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container text-white">
+      <div className="container text-white" data-aos="fade-up">
         <div className="row gx-5 gx-lg-4 gx-xl-5 gy-5">
-          <div className="col-md-6 col-lg-4 footer__left text-center text-lg-start">
+          <div className="col-md-6 col-lg-4 footer__left text-center text-lg-start" data-aos="fade-up" data-aos-delay="100">
             <img src="./images/logo.png" alt="Logo" className="text-center" />
             <p>
               lorem quis bibendum auctor, nisi elit consequat ipsum, nec
@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="#">Privacy</a>
             </div>
           </div>
-          <div className="col-md-6 col-lg-4 footer__middle text-center text-lg-start">
+          <div className="col-md-6 col-lg-4 footer__middle text-center text-lg-start" data-aos="fade-up" data-aos-delay="200">
             <h4>Our Studio</h4>
             <div className="d-flex gap-3 gap-lg-4 justify-content-center justify-content-lg-start">
               <i className="fa-solid fa-location-dot"></i>
@@ -32,7 +32,7 @@ const Footer = () => {
               <span>(+12) 123 456 789</span>
             </div>
           </div>
-          <div className="col-12 col-lg-4 footer__right text-center text-lg-start">
+          <div className="col-12 col-lg-4 footer__right text-center text-lg-start" data-aos="fade-up" data-aos-delay="300">
             <h4>Stay in Touch</h4>
             <form className="d-flex align-items-center gap-2 justify-content-center justify-content-lg-start">
               <input type="email" placeholder="Subscribe Our Newsletter" />

@@ -1,4 +1,7 @@
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,6 +12,14 @@ import ErrorPage from "./pages/ErrorPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 50,
+      mirror: true,
+    });
+  }, []);
+
   return (
     <>
       <BrowserRouter>
