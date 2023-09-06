@@ -2,11 +2,11 @@ const ContactForm = () => {
   return (
     <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
       <h2 className="title mb-4 mb-md-5">Give Us A Good News</h2>
-      <form>
-        <input type="text" name="name" placeholder="Name" />
-        <input type="email" name="email" placeholder="Eail" />
-        <input type="text" name="subject" placeholder="Subject" />
-        <textarea name="message" placeholder="Your Message"></textarea>
+      <form action="https://formspree.io/f/xknlbqza" method="POST">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit" className="button">
           Submit
         </button>
