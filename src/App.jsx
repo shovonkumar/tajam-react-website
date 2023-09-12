@@ -11,12 +11,12 @@ import WorksPage from "./pages/WorksPage";
 import ErrorPage from "./pages/ErrorPage";
 import ContactPage from "./pages/ContactPage";
 import BackToTop from "./components/backToTop/BackToTop";
+import ScrollRestore from "./components/scrollRestore/ScrollRestore";
 
 function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      offset: 50,
       mirror: true,
     });
   }, []);
@@ -24,6 +24,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollRestore />
         <Navbar />
         <BackToTop />
         <Routes>
