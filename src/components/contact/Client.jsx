@@ -4,7 +4,6 @@ const Client = () => {
       className="col-md-6 d-flex flex-column gap-5"
       data-aos="fade-up"
       data-aos-delay="200"
-      data-aos-offset="500"
     >
       <h2 className="title mb-0">Our Happy Clients</h2>
       <div className="d-flex align-items-center justify-content-between">
